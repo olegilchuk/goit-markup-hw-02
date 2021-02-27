@@ -1,7 +1,9 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
-    --accent-color: #2196F3
+    --accent-color: #2196F3;
+    --text-color:#212121;
+    --title-color:#FFFFFF;
 }
 
 body {
@@ -30,7 +32,7 @@ body {
 /* _______________header_______________ */
 
 .logo-word-top{
-    color: #212121;
+    color: var(--text-color);
 }
 
 .header-nav-link {
@@ -39,7 +41,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color: var(--text-color);
 }
 
 .header-nav-link:hover,
@@ -80,7 +82,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--title-color);
 }
 
 .hero-section-btn{
@@ -94,7 +96,7 @@ body {
     letter-spacing: 0.06em;
     cursor: pointer;
 
-    color: #FFFFFF;
+    color: var(--title-color);
     background-color: var(--accent-color);
 }
 /* _______________END HERO_______________ */
@@ -108,7 +110,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #212121;
+    color: var(--text-color);
 }
 
 .description-text{
@@ -130,7 +132,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: var(--text-color);
 }
 
 /* _______________end us work_______________ */
@@ -142,7 +144,7 @@ body {
 }
 
 .usteam-list-blok{
-    background: #FFFFFF;
+    background: var(--title-color);
     width: 270px;
     height: 368px;
 }
@@ -154,7 +156,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--text-color);
 }
 
 .usteam-title{
@@ -164,7 +166,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--text-color);
 
 }
 
@@ -188,7 +190,7 @@ body {
 }
 
 .logo-word-bottom{
-    color: #fff;
+    color: var(--title-color);
 }
 
 .address {
@@ -201,7 +203,7 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     
-    color: #FFFFFF;
+    color: var(--title-color);
 }
 
 .address-list-link{

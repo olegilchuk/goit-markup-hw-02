@@ -3,6 +3,8 @@
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --accent-color: #2196F3;
+    --text-color:#212121;
+    --title-color:#FFFFFF;
 
 }
 
@@ -32,7 +34,7 @@ body {
 
 
 .logo-word-top{
-    color: #212121;
+    color: var(--text-color);
 }
 
 .header-nav-link {
@@ -41,7 +43,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color: var(--text-color);
 }
 
 .header-nav-link:hover,
@@ -84,7 +86,7 @@ body {
 
 .price-button-list:hover,
 .price-button-list:focus{
-    color:#fff;
+    color:var(--title-color);
     background-color: var(--accent-color);
      
 }
@@ -98,12 +100,12 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
-    background-color:#fff;
+    color: var(--text-color);
+    background-color:var(--title-color);
 }
 
 .price-img-list{
-    background: #FFFFFF;
+    background: var(--title-color);
     width: 370px;
     height: 404px;
 }
@@ -114,7 +116,7 @@ body {
     line-height: 2.25;
     letter-spacing: 0.06em;
 
-    color: #212121;
+    color: var(--text-color);
 }
 
 .price-list-text{
@@ -136,7 +138,7 @@ body {
 }
 
 .logo-word-bottom{
-    color: #fff;
+    color: var(--title-color);
 }
 
 .address {
@@ -149,7 +151,7 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     
-    color: #FFFFFF;
+    color: var(--title-color);
 }
 
 .address-list-link{
